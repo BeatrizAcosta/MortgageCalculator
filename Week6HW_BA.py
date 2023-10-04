@@ -29,9 +29,9 @@ class MyGUI:
         self.label4 = tkinter.Label(self.fourth_f,text = 'Interest rate of Mortgage:')
 
         #entries 
-        self.amount2 = tkinter.Entry(self.second_f,width = 15, foreground='red')
-        self.amount3 = tkinter.Entry(self.third_f,width = 15, foreground = 'red')
-        self.amount4 = tkinter.Entry(self.fourth_f,width = 15, foreground = 'red')
+        self.amount2 = tkinter.Entry(self.second_f,width = 15, foreground='blue')
+        self.amount3 = tkinter.Entry(self.third_f,width = 15, foreground = 'blue')
+        self.amount4 = tkinter.Entry(self.fourth_f,width = 15, foreground = 'blue')
 
         #buttons 
         self.result = tkinter.Button(self.fifth_f, text = '| Calculate Monthly Payment |', command = self.Calculate)
